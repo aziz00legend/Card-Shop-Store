@@ -1,0 +1,213 @@
+/* about-us.component.css */
+
+.about-us-container {
+   
+  max-width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .about-us-container h2 {
+    color: #333333c0;
+    font-style: italic;
+  }
+  
+  .about-us-container p {
+    font-size: 19px;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  
+  .about-us-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add a hover effect to links */
+  .about-us-container a {
+    color: #555;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .about-us-container a:hover {
+    color: #555;
+  }
+
+ 
+ 
+
+
+
+  button:hover {
+    background-color: #555 !important; /* Change hover background color to a darker shade */
+  }
+
+
+  button {
+    padding: 10px;
+    background-color: #333333a9 !important; /* Add !important to ensure higher specificity */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+
+
+
+.about 
+{  padding-top: 60px;
+  background-color: #33333379;
+}
+.about-us-container  label {
+  font-size: 25px;
+  line-height: 1.5;
+  color: #555;
+}
+.about-us-container  input {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #555;
+}
+.about-us-container  div {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #555;
+}
+
+
+
+
+
+
+
+
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 128px;
+  }
+
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  footer img {
+    height: 30px;
+    margin-right: 5px;
+  }
+
+  footer .logo-container {
+    order: -1;
+    margin-left: 20px ; /* Set the site logo to appear first */
+  }
+
+  footer .social-media-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px ;
+  }
+
+
+  .container {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.separator {
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* login.component.css */
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  label {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  a {
+    cursor: pointer;
+    color: #007BFF;
+    text-decoration: underline;
+  }
+  
+  /* Optional: Add styles for better visual consistency */
+  h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 16px;
+  }
+  
+  /* Optional: Add styles for responsive design */
+  @media (max-width: 400px) {
+    form {
+      max-width: 100%;
+    }
+  }
+  

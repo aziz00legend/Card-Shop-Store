@@ -1,0 +1,58 @@
+<app-searchbar></app-searchbar>
+<app-colors></app-colors>
+<app-not-found
+  [visible]="!cards || cards.length <= 0"
+  resetLinkText="Reset Search"
+></app-not-found>
+<ul>
+  <li *ngFor="let card of cards">
+    <a routerLink="/card/{{ card.id }}">
+      <img src="{{ card.imageUrl }}" alt="Card Img" />
+    </a>
+    <div class="content">
+      <div class="name">
+        {{ card.name }}
+        <span
+          [ngClass]="{ isFavorite: card.favorite }"
+          (click)="toggleFavorite(card)"
+          class="favorite {{ card.favorite ? 'isFavorite' : '' }}"
+          >❤</span
+        >
+      </div>
+      <div class="color">
+        <span>
+          {{ card.color }}
+        </span>
+      </div>
+      <div class="format">
+        <span *ngFor="let format of card.tags">{{ format }}</span>
+      </div>
+
+      <div class="price">
+        <span>{{ card.price | currency : "TND" : "symbol" : "1.2-2" }}</span>
+      </div>
+
+
+    </div>
+  </li>
+</ul>
+
+<footer>
+  <div class="logo-container">
+    <img src="assets/images/téléchargement.png" alt="Your Card Shop Logo" style="height: 50px; margin-right: 10px;">
+  </div>
+  <div class="container">
+      <span >Location: Tunis, Ariana</span>
+      <span >||</span>
+      <span>&copy; 2023 MARK'S CARD SHOP</span>
+  </div>
+  
+  <div class="social-media-container">
+    <a href="https://www.facebook.com/" target="_blank">
+      <img src="assets/images/facebook.png" alt="Facebook Logo">
+    </a>
+    <a href="https://www.instagram.com/" target="_blank">
+      <img src="assets/images/Instagram.png" alt="Instagram Logo">
+    </a>
+  </div>
+</footer>

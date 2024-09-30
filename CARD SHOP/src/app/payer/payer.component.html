@@ -1,0 +1,53 @@
+<div class="about">
+<div class="about-us-container">
+    
+    <div>
+       <!-- login.component.html -->
+<div >
+    <!-- Login Form -->
+    <h2>Payer</h2>
+    <form (ngSubmit)="login()">
+      <label for="Number">Account Number:</label>
+      <input type="number" id="Number" [(ngModel)]="Number" name="email" required>
+  
+      <label for="password">Password:</label>
+      <input type="password" id="password" [(ngModel)]="password" name="password" required>
+  
+      <button type="submit">Payer</button>
+      <div class="notification" *ngIf="showNotification">{{ notificationMessage }}</div>
+    </form>
+    
+  
+    <p>We want to go back home? <a (click)="BackHome()">Home</a></p>
+  </div>
+  
+  
+  
+          
+
+
+        </div>
+    <!-- Add more content as needed -->
+    
+  </div>
+
+  <footer>
+    <div class="logo-container">
+      <img src="assets/images/téléchargement.png" class="imagefooter" alt="Your Card Shop Logo" style="height: 50px; margin-right: 10px;">
+    </div>
+    <div class="container">
+        <span >Location: Tunis, Ariana</span>
+        <span >||</span>
+        <span>&copy; 2023 MARK'S CARD SHOP</span>
+    </div>
+    
+    <div class="social-media-container">
+      <a href="https://www.facebook.com/" target="_blank">
+        <img src="assets/images/facebook.png" class="imagefooter" alt="Facebook Logo">
+      </a>
+      <a href="https://www.instagram.com/" target="_blank">
+        <img src="assets/images/Instagram.png" class="imagefooter" alt="Instagram Logo">
+      </a>
+    </div>
+  </footer>
+</div>

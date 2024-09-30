@@ -1,0 +1,28 @@
+<app-not-found
+  [visible]="!card"
+  notFoundMessage="Card Not Found!"
+  resetLinkText="Back to Homepage"
+></app-not-found>
+
+<div *ngIf="card" class="container">
+  <img [src]="card.imageUrl" [alt]="card.name" />
+  <div class="details">
+    <div class="header">
+      <span class="name">{{ card.name }}</span>
+      <span class="favorite {{ card.favorite ? '' : 'not' }}">❤</span>
+    </div>
+    <div class="color">
+      <span>{{ card.color }}</span>
+    </div>
+    <div class="tags">
+      <span  *ngFor="let format of card.tags">{{ format }}, </span>
+    </div>
+    <div class="price">
+      <span>{{ card.price | currency : "TND" }}</span>
+    </div>
+    
+    <button class="add_to_cart" (click)="addToCart()">Add to Cart</button>
+    <div class="notification" *ngIf="showNotification">{{ notificationMessage }}</div>
+    <button class="back" (click)="homePage()">Back</button>
+  </div>
+</div>

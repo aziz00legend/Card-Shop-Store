@@ -1,0 +1,111 @@
+header {
+  background: white;
+  padding: 0;
+  border-bottom: 1px solid #000;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+}
+
+.cart:hover {
+  background-color: rgba(45, 46, 49, 0.796);
+  color: white;
+}
+
+
+.container  {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a.logo {
+  font-weight: bold;
+  padding: 1em;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+nav ul li a {
+  padding: 1em;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+.logo-container {
+  max-width: 150px; 
+ /* margin: 0 auto; /* Center the logo horizontally */
+ margin-bottom: 2px;
+}
+
+.logo-container img {
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+}
+
+
+
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none; 
+}
+
+.logo a {
+  color: #333; 
+  margin-right: 10px; 
+}
+
+.logo img {
+  max-height: 50px; 
+  max-width: 100%; 
+  border-radius: 50%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.snowball {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  top: 0;
+  animation: fall 5s linear infinite;
+  opacity: 1;
+}
+
+@keyframes fall {
+  to {
+      top: calc(100vh - 50px);
+      transform: scaleX(0.2) scaleY(0.2);
+      opacity: 0;
+  }
+}
