@@ -6,17 +6,25 @@ The Online Card Shop Platform provides an enjoyable shopping experience for card
 ## Features
 - Intuitive user interface for easy navigation
   
-  ![CartS](https://github.com/user-attachments/assets/6afb5ef3-298b-437b-b754-709d07ce89e6)
+  <img width="1895" height="851" alt="1" src="https://github.com/user-attachments/assets/9818df34-628a-4c35-86b4-693e313cbd78" />
 
-  ![CartS 1](https://github.com/user-attachments/assets/80937c63-a734-45a4-889f-21db69633461)
+  <img width="1902" height="847" alt="2" src="https://github.com/user-attachments/assets/cca33094-3435-47c8-a98f-b450e92e1a0d" />
+
+
 
 - Browse and filter cards by category and color
 - Search functionality to find specific cards quickly
 - User accounts for order management
-  ![CartS 31](https://github.com/user-attachments/assets/ef60bfdd-7d64-4abe-bd80-cd15fe5f2dad)
+  
+ <img width="785" height="650" alt="4" src="https://github.com/user-attachments/assets/cc845352-4a39-4456-9a0f-742a40eb0802" />
+
 
 - Streamlined checkout and sales process.
-  ![CartS 5](https://github.com/user-attachments/assets/935cb384-0d27-4179-a5ac-1bd560ae8425)
+
+ <img width="951" height="582" alt="6" src="https://github.com/user-attachments/assets/ea34c91e-8763-408d-bd6a-7d3a68ba025c" />
+
+ <img width="1892" height="626" alt="7" src="https://github.com/user-attachments/assets/f60dc9ee-1ebe-4876-88c8-d8be5f830d1e" />
+
 
 
 ## Technology Stack
